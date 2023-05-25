@@ -3,21 +3,25 @@
 
 #include <iostream>
 const int listsize = 10;
-int list[listsize];
-int sum(int list[listsize], int listsize)
+
+int sum(int *pointer, int listsize)
 {
 	int runsum = 0;
 	for (int i = 0; i < listsize; i++)
 	{
-		if (list[i] >= 0)
+		if (*pointer >= 0)
 		{
-			runsum = runsum + list[i];
+			runsum = runsum + *pointer;
 		}
+		pointer++;
 	}
 	return runsum;
 }
 int main()
 {
+	int list[listsize];
+	int *pointer;
+	pointer =	list;
 	
 	std::cout <<"set values to list number "<<std::endl;
 	for (int i = 0; i < listsize; i++)
@@ -26,7 +30,7 @@ int main()
 		std::cin >> list[i];
 
 	}
-	std::cout << "Sum of non-negative values of list ="  << sum(list, listsize);
+	std::cout << "\n Sum of non-negative values of list ="  << sum(pointer, listsize);
 
 
 }
