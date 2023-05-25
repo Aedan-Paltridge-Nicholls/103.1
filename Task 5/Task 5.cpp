@@ -1,6 +1,6 @@
 // identify the Shapes 
 #include <iostream>
-//#include <graphics.h>
+#include <graphics.h>
 char ltc = 201u;
 char rtc = 187u;
 char lbc = 200u;
