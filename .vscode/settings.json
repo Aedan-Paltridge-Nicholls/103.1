@@ -1,4 +1,6 @@
 {
+    
+        
     "files.associations": {
         "ostream": "cpp",
         "atomic": "cpp",
@@ -43,6 +45,9 @@
         "xutility": "cpp"
     },
     "cmake.configureArgs": [],
-    "cmake.configureSettings": {},
+    "cmake.configureSettings": {
+        "CMAKE_TOOLCHAIN_FILE": "D:/Users/270331389/source/repos/vcpkg/scripts/buildsystems/vcpkg.cmake"
+      },
+    
     "vcpkg.general.enable": true
 }
