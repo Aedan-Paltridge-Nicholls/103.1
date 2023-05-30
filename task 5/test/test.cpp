@@ -328,7 +328,7 @@ int main()
     rect = rand() %300+25;
     rect2 = rand() %300+25;
     
-    int shape =  rand()%4+1;
+    int shape =   4;//rand()%4+1;
     switch (shape)
     {
         case 1:
