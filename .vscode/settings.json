@@ -83,5 +83,5 @@
         ".ring": "ring",
         ".sml": "cd $dir && sml $fileName"
     },
-    "cmake.sourceDirectory": "D:/Users/270331389/OneDrive - UP Education/Desktop/Aedan_NIcholls_103.1-Practical/103.1/task 5/test"
+    "cmake.sourceDirectory": "C:/Users/nicho/source/repos/103.1/task 5"
 }
