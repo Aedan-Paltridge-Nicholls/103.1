@@ -1,14 +1,14 @@
 #include <iostream>
 #include <string>
 /*
-•Application should allow recording a minimum of three different days expenses. 
+•Application should allow recording a minimum of three different days expenses. √
 •Daily expenses must be calculated and displayed by accessing the “view daily expenses “option. √
-•Manage constructor to initialize the members 
+•Manage constructor to initialize the members √
 •Weekly expenses should be calculated and displayed √
-•Generate daily reports and weekly reports
+•Generate daily reports and weekly reports √
 •Manage structure array to record multiple days expenses √
-•Manage functions to get input and generate reports like daily and weekly expenses
-•Manage relevant menu items to access the features.
+•Manage functions to get input and generate reports like daily and weekly expenses √
+•Manage relevant menu items to access the features. √
 */
 using namespace std;
 struct PersonalExpensesManager
@@ -39,17 +39,37 @@ struct PersonalExpensesManager
     };
 
     ExpenseDate PersonalExpenses;
-   PersonalExpensesManager()
-   {
+    PersonalExpensesManager()
+    {
 
-    User.PersonalExpenses.Year.Month[1].Week[1].Days[1].DailyExpenses.EntertainmentCost = 100;
-    User.PersonalExpenses.Year.Month[1].Week[1].Days[1].DailyExpenses.HousingCost =1200;
-    User.PersonalExpenses.Year.Month[1].Week[1].Days[1].DailyExpenses.MealCost =50;
-    User.PersonalExpenses.Year.Month[1].Week[1].Days[1].DailyExpenses.TransportCosts=12;
-
-   }
+        User.PersonalExpenses.Year.Month[1].Week[1].Days[1].DailyExpenses.EntertainmentCost = 100;
+        User.PersonalExpenses.Year.Month[1].Week[1].Days[1].DailyExpenses.HousingCost = 1200;
+        User.PersonalExpenses.Year.Month[1].Week[1].Days[1].DailyExpenses.MealCost = 50;
+        User.PersonalExpenses.Year.Month[1].Week[1].Days[1].DailyExpenses.TransportCosts = 12;
+    }
 } User;
-
+void daysExpenses(int m, int w, int d)
+{
+    cout << "\nDaily expenses of Day : " << d << " of week : " << w << " of Month : " << m << "\n$"
+     << User.PersonalExpenses.Year.Month[m].Week[w].Days[d].DailyExpenses.EntertainmentCost 
+      + User.PersonalExpenses.Year.Month[m].Week[w].Days[d].DailyExpenses.HousingCost
+      + User.PersonalExpenses.Year.Month[m].Week[w].Days[d].DailyExpenses.MealCost 
+      + User.PersonalExpenses.Year.Month[m].Week[w].Days[d].DailyExpenses.TransportCosts << endl;
+}
+void weeksExpenses(int m, int w)
+{
+    int Cost = 0;
+    cout << "\nDaily expenses of Week" << w << "-" << m << "\n $";
+    for (int i = 0; i < 7; i++)
+    {
+        Cost +=
+            User.PersonalExpenses.Year.Month[m].Week[w].Days[i].DailyExpenses.EntertainmentCost +
+            User.PersonalExpenses.Year.Month[m].Week[w].Days[i].DailyExpenses.HousingCost +
+            User.PersonalExpenses.Year.Month[m].Week[w].Days[i].DailyExpenses.MealCost +
+            User.PersonalExpenses.Year.Month[m].Week[w].Days[i].DailyExpenses.TransportCosts;
+    }
+    cout << Cost << endl;
+}
 int main()
 {
     bool run = true;
@@ -61,91 +81,89 @@ int main()
              << "See Weekly Expenses [2]\n"
              << "Add daiy expenses[3]\n";
         cin >> input;
-        switch (input)
-        {
-            case 1:
+            switch (input)
             {
-                int m, w, d;
-                cout << "\nFor what date\n"
-                    << "\nMonth of the year 1-12\n";
-                cin >> m;
-                cout << "\nWeek of the Month 1-4\n";
-                cin >> w;
-                cout << "\nDay of the Week 1-7\n";
-                cin >>d;
-                cout << "\nDaily expenses of :"<<d<<'-'<<w<<'-'<<m<<"\n$"<<
-                User.PersonalExpenses.Year.Month[m].Week[w].Days[d].DailyExpenses.EntertainmentCost +
-                User.PersonalExpenses.Year.Month[m].Week[w].Days[d].DailyExpenses.HousingCost +
-                User.PersonalExpenses.Year.Month[m].Week[w].Days[d].DailyExpenses.MealCost +
-                User.PersonalExpenses.Year.Month[m].Week[w].Days[d].DailyExpenses.TransportCosts<<endl;
-            }
-            break;
-            case 2:
-            {
-                int m, w, d,Cost=0;
-
-                cout << "\nFor what date\n"
-                    << "\nMonth of the year 1-12\n";
-                cin >> m;
-                cout << "\nWeek of the Month 1-4\n";
-                cin >> w;
-                cout << "\nDaily expenses of Week"<<w<<"-"<<m<<"\n $";
-                for (int  i = 0; i < 7; i++)
-                { Cost +=
-                    User.PersonalExpenses.Year.Month[m].Week[w].Days[i].DailyExpenses.EntertainmentCost +
-                    User.PersonalExpenses.Year.Month[m].Week[w].Days[i].DailyExpenses.HousingCost +
-                    User.PersonalExpenses.Year.Month[m].Week[w].Days[i].DailyExpenses.MealCost +
-                    User.PersonalExpenses.Year.Month[m].Week[w].Days[i].DailyExpenses.TransportCosts;
+                case 1:
+                {
+                    int m, w, d;
+                    cout << "\nFor what date\n"
+                        << "\nMonth of the year 1-12\n";
+                    cin >> m;
+                    cout << "\nWeek of the Month 1-4\n";
+                    cin >> w;
+                    cout << "\nDay of the Week 1-7\n";
+                    cin >> d;
+                    daysExpenses(m, w, d);
                 }
-                cout << Cost<<endl;
-                
-            }
-            break;
+                break;
+                case 2:
+                {
+                    int m, w, d;
+
+                    cout << "\nFor what date\n"
+                        << "\nMonth of the year 1-12\n";
+                    cin >> m;
+                    cout << "\nWeek of the Month 1-4\n";
+                    cin >> w;
+                    weeksExpenses(m,w);
+                }
+                break;
             case 3:
-            {   bool escape =false;
-                int m, w, d,e;
+            {
+                bool escape = false;
+                int m, w, d, e;
                 cout << "\nFor what date\n"
                     << "\nMonth of the year 1-12\n";
                 cin >> m;
                 cout << "\nWeek of the Month 1-4\n";
                 cin >> w;
                 cout << "\nDay of the Week 1-7\n";
-                cin >>d;
-                
-               while (escape == false)
-               {e=0;
-                cout <<"what Expense\n"<<"\nEntertainment[1]"<<"\nHousing[2]"<<"\nMeal[3]"<<"\nTransport[4]\n";
-                cin >> e;
+                cin >> d;
+
+                while (escape == false)
+                {
+                    e = 0;
+                    cout << "what Expense\n"
+                        << "\nEntertainment[1]"
+                        << "\nHousing[2]"
+                        << "\nMeal[3]"
+                        << "\nTransport[4]\n";
+                    cin >> e;
                     switch (e)
                     {
                         case 1:
-                            {cout << "\nWhat Amount\n";
-                                cin >>  User.PersonalExpenses.Year.Month[m].Week[w].Days[d].DailyExpenses.EntertainmentCost;
-                            }
-                            break;
+                        {
+                            cout << "\nWhat Amount\n";
+                            cin >> User.PersonalExpenses.Year.Month[m].Week[w].Days[d].DailyExpenses.EntertainmentCost;
+                        }
+                        break;
                         case 2:
-                            {cout << "\nWhat Amount\n";
-                                cin >>  User.PersonalExpenses.Year.Month[m].Week[w].Days[d].DailyExpenses.HousingCost;
-                            }
-                            break;
+                        {
+                            cout << "\nWhat Amount\n";
+                            cin >> User.PersonalExpenses.Year.Month[m].Week[w].Days[d].DailyExpenses.HousingCost;
+                        }
+                        break;
                         case 3:
-                            {cout << "\nWhat Amount\n";
-                                cin >>  User.PersonalExpenses.Year.Month[m].Week[w].Days[d].DailyExpenses.MealCost;
-                            }
-                            break;
+                        {
+                            cout << "\nWhat Amount\n";
+                            cin >> User.PersonalExpenses.Year.Month[m].Week[w].Days[d].DailyExpenses.MealCost;
+                        }
+                        break;
                         case 4:
-                            {cout << "\nWhat Amount\n";
-                                cin >>  User.PersonalExpenses.Year.Month[m].Week[w].Days[d].DailyExpenses.TransportCosts;
-                            }
+                        {
+                            cout << "\nWhat Amount\n";
+                            cin >> User.PersonalExpenses.Year.Month[m].Week[w].Days[d].DailyExpenses.TransportCosts;
+                        }
                         break;
                         case 5:
-                            {
-                                escape = true;
-                            }
+                        {
+                            escape = true;
+                        }
                         break;
-                        
-                        default: run = false;
-                        break;
+
+                        default:
+                            run = false;
+                            break;
                     }
                 }
             }
@@ -153,7 +171,5 @@ int main()
             default:
                 break;
         }
-    } 
+    }
 }
-            
-
