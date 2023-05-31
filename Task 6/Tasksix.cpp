@@ -11,7 +11,7 @@
 •Manage relevant menu items to access the features.
 */
 using namespace std;
-struct PersonalExpenses
+struct PersonalExpensesManager
 {
     struct ExpenseDate
     {
@@ -37,13 +37,23 @@ struct PersonalExpenses
         };
         Month Year;
     };
+
     ExpenseDate PersonalExpenses;
+   PersonalExpensesManager()
+   {
+
+    User.PersonalExpenses.Year.Month[1].Week[1].Days[1].DailyExpenses.EntertainmentCost = 100;
+    User.PersonalExpenses.Year.Month[1].Week[1].Days[1].DailyExpenses.HousingCost =1200;
+    User.PersonalExpenses.Year.Month[1].Week[1].Days[1].DailyExpenses.MealCost =50;
+    User.PersonalExpenses.Year.Month[1].Week[1].Days[1].DailyExpenses.TransportCosts=12;
+
+   }
 } User;
 
 int main()
 {
     bool run = true;
-    
+    PersonalExpensesManager r1;
     while (run == true)
     {
         int input;
