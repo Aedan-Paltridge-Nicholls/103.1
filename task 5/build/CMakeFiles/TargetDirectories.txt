@@ -1,8 +1,8 @@
-D:/Users/270331389/source/repos/103.1/task 5/build/CMakeFiles/edit_cache.dir
-D:/Users/270331389/source/repos/103.1/task 5/build/CMakeFiles/rebuild_cache.dir
-D:/Users/270331389/source/repos/103.1/task 5/build/libbgi/CMakeFiles/bgi.dir
-D:/Users/270331389/source/repos/103.1/task 5/build/libbgi/CMakeFiles/edit_cache.dir
-D:/Users/270331389/source/repos/103.1/task 5/build/libbgi/CMakeFiles/rebuild_cache.dir
-D:/Users/270331389/source/repos/103.1/task 5/build/test/CMakeFiles/testbgi.dir
-D:/Users/270331389/source/repos/103.1/task 5/build/test/CMakeFiles/edit_cache.dir
-D:/Users/270331389/source/repos/103.1/task 5/build/test/CMakeFiles/rebuild_cache.dir
+D:/Users/270331389/source/repos/103.1-1/task 5/build/CMakeFiles/edit_cache.dir
+D:/Users/270331389/source/repos/103.1-1/task 5/build/CMakeFiles/rebuild_cache.dir
+D:/Users/270331389/source/repos/103.1-1/task 5/build/libbgi/CMakeFiles/bgi.dir
+D:/Users/270331389/source/repos/103.1-1/task 5/build/libbgi/CMakeFiles/edit_cache.dir
+D:/Users/270331389/source/repos/103.1-1/task 5/build/libbgi/CMakeFiles/rebuild_cache.dir
+D:/Users/270331389/source/repos/103.1-1/task 5/build/test/CMakeFiles/testbgi.dir
+D:/Users/270331389/source/repos/103.1-1/task 5/build/test/CMakeFiles/edit_cache.dir
+D:/Users/270331389/source/repos/103.1-1/task 5/build/test/CMakeFiles/rebuild_cache.dir

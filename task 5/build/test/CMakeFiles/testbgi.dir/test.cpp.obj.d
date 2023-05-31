@@ -1,6 +1,6 @@
 test/CMakeFiles/testbgi.dir/test.cpp.obj: \
- D:\Users\270331389\source\repos\103.1\task\ 5\test\test.cpp \
- D:\Users\270331389\source\repos\103.1\task\ 5\test\graphics.h \
+ D:\Users\270331389\source\repos\103.1-1\task\ 5\test\test.cpp \
+ D:\Users\270331389\source\repos\103.1-1\task\ 5\test\graphics.h \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/_mingw_mac.h \
  C:/msys64/mingw64/include/_mingw_secapi.h \

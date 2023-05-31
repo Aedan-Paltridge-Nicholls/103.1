@@ -56,10 +56,10 @@ RM = D:\Users\270331389\cmake-3.26.4-windows-x86_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Users\270331389\source\repos\103.1\task 5"
+CMAKE_SOURCE_DIR = "D:\Users\270331389\source\repos\103.1-1\task 5"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Users\270331389\source\repos\103.1\task 5\build"
+CMAKE_BINARY_DIR = "D:\Users\270331389\source\repos\103.1-1\task 5\build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(CMAKE_COMMAND) -E cmake_progress_start "D:\Users\270331389\source\repos\103.1\task 5\build\CMakeFiles" "D:\Users\270331389\source\repos\103.1\task 5\build\libbgi\\CMakeFiles\progress.marks"
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libbgi/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Users\270331389\source\repos\103.1\task 5\build\CMakeFiles" 0
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(CMAKE_COMMAND) -E cmake_progress_start "D:\Users\270331389\source\repos\103.1-1\task 5\build\CMakeFiles" "D:\Users\270331389\source\repos\103.1-1\task 5\build\libbgi\\CMakeFiles\progress.marks"
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libbgi/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Users\270331389\source\repos\103.1-1\task 5\build\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libbgi/clean
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libbgi/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libbgi/preinstall
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libbgi/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libbgi/preinstall
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libbgi/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libbgi/CMakeFiles/bgi.dir/rule:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libbgi/CMakeFiles/bgi.dir/rule
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libbgi/CMakeFiles/bgi.dir/rule
 .PHONY : libbgi/CMakeFiles/bgi.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ bgi: libbgi/CMakeFiles/bgi.dir/rule
 
 # fast build rule for target.
 bgi/fast:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/build
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/build
 .PHONY : bgi/fast
 
 src/dibutil.obj: src/dibutil.cxx.obj
@@ -134,7 +134,7 @@ src/dibutil.obj: src/dibutil.cxx.obj
 
 # target to build an object file
 src/dibutil.cxx.obj:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/dibutil.cxx.obj
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/dibutil.cxx.obj
 .PHONY : src/dibutil.cxx.obj
 
 src/dibutil.i: src/dibutil.cxx.i
@@ -142,7 +142,7 @@ src/dibutil.i: src/dibutil.cxx.i
 
 # target to preprocess a source file
 src/dibutil.cxx.i:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/dibutil.cxx.i
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/dibutil.cxx.i
 .PHONY : src/dibutil.cxx.i
 
 src/dibutil.s: src/dibutil.cxx.s
@@ -150,7 +150,7 @@ src/dibutil.s: src/dibutil.cxx.s
 
 # target to generate assembly for a file
 src/dibutil.cxx.s:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/dibutil.cxx.s
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/dibutil.cxx.s
 .PHONY : src/dibutil.cxx.s
 
 src/drawing.obj: src/drawing.cxx.obj
@@ -158,7 +158,7 @@ src/drawing.obj: src/drawing.cxx.obj
 
 # target to build an object file
 src/drawing.cxx.obj:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/drawing.cxx.obj
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/drawing.cxx.obj
 .PHONY : src/drawing.cxx.obj
 
 src/drawing.i: src/drawing.cxx.i
@@ -166,7 +166,7 @@ src/drawing.i: src/drawing.cxx.i
 
 # target to preprocess a source file
 src/drawing.cxx.i:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/drawing.cxx.i
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/drawing.cxx.i
 .PHONY : src/drawing.cxx.i
 
 src/drawing.s: src/drawing.cxx.s
@@ -174,7 +174,7 @@ src/drawing.s: src/drawing.cxx.s
 
 # target to generate assembly for a file
 src/drawing.cxx.s:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/drawing.cxx.s
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/drawing.cxx.s
 .PHONY : src/drawing.cxx.s
 
 src/file.obj: src/file.cxx.obj
@@ -182,7 +182,7 @@ src/file.obj: src/file.cxx.obj
 
 # target to build an object file
 src/file.cxx.obj:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/file.cxx.obj
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/file.cxx.obj
 .PHONY : src/file.cxx.obj
 
 src/file.i: src/file.cxx.i
@@ -190,7 +190,7 @@ src/file.i: src/file.cxx.i
 
 # target to preprocess a source file
 src/file.cxx.i:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/file.cxx.i
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/file.cxx.i
 .PHONY : src/file.cxx.i
 
 src/file.s: src/file.cxx.s
@@ -198,7 +198,7 @@ src/file.s: src/file.cxx.s
 
 # target to generate assembly for a file
 src/file.cxx.s:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/file.cxx.s
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/file.cxx.s
 .PHONY : src/file.cxx.s
 
 src/misc.obj: src/misc.cxx.obj
@@ -206,7 +206,7 @@ src/misc.obj: src/misc.cxx.obj
 
 # target to build an object file
 src/misc.cxx.obj:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/misc.cxx.obj
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/misc.cxx.obj
 .PHONY : src/misc.cxx.obj
 
 src/misc.i: src/misc.cxx.i
@@ -214,7 +214,7 @@ src/misc.i: src/misc.cxx.i
 
 # target to preprocess a source file
 src/misc.cxx.i:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/misc.cxx.i
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/misc.cxx.i
 .PHONY : src/misc.cxx.i
 
 src/misc.s: src/misc.cxx.s
@@ -222,7 +222,7 @@ src/misc.s: src/misc.cxx.s
 
 # target to generate assembly for a file
 src/misc.cxx.s:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/misc.cxx.s
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/misc.cxx.s
 .PHONY : src/misc.cxx.s
 
 src/mouse.obj: src/mouse.cxx.obj
@@ -230,7 +230,7 @@ src/mouse.obj: src/mouse.cxx.obj
 
 # target to build an object file
 src/mouse.cxx.obj:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/mouse.cxx.obj
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/mouse.cxx.obj
 .PHONY : src/mouse.cxx.obj
 
 src/mouse.i: src/mouse.cxx.i
@@ -238,7 +238,7 @@ src/mouse.i: src/mouse.cxx.i
 
 # target to preprocess a source file
 src/mouse.cxx.i:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/mouse.cxx.i
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/mouse.cxx.i
 .PHONY : src/mouse.cxx.i
 
 src/mouse.s: src/mouse.cxx.s
@@ -246,7 +246,7 @@ src/mouse.s: src/mouse.cxx.s
 
 # target to generate assembly for a file
 src/mouse.cxx.s:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/mouse.cxx.s
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/mouse.cxx.s
 .PHONY : src/mouse.cxx.s
 
 src/palette.obj: src/palette.cxx.obj
@@ -254,7 +254,7 @@ src/palette.obj: src/palette.cxx.obj
 
 # target to build an object file
 src/palette.cxx.obj:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/palette.cxx.obj
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/palette.cxx.obj
 .PHONY : src/palette.cxx.obj
 
 src/palette.i: src/palette.cxx.i
@@ -262,7 +262,7 @@ src/palette.i: src/palette.cxx.i
 
 # target to preprocess a source file
 src/palette.cxx.i:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/palette.cxx.i
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/palette.cxx.i
 .PHONY : src/palette.cxx.i
 
 src/palette.s: src/palette.cxx.s
@@ -270,7 +270,7 @@ src/palette.s: src/palette.cxx.s
 
 # target to generate assembly for a file
 src/palette.cxx.s:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/palette.cxx.s
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/palette.cxx.s
 .PHONY : src/palette.cxx.s
 
 src/text.obj: src/text.cxx.obj
@@ -278,7 +278,7 @@ src/text.obj: src/text.cxx.obj
 
 # target to build an object file
 src/text.cxx.obj:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/text.cxx.obj
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/text.cxx.obj
 .PHONY : src/text.cxx.obj
 
 src/text.i: src/text.cxx.i
@@ -286,7 +286,7 @@ src/text.i: src/text.cxx.i
 
 # target to preprocess a source file
 src/text.cxx.i:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/text.cxx.i
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/text.cxx.i
 .PHONY : src/text.cxx.i
 
 src/text.s: src/text.cxx.s
@@ -294,7 +294,7 @@ src/text.s: src/text.cxx.s
 
 # target to generate assembly for a file
 src/text.cxx.s:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/text.cxx.s
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/text.cxx.s
 .PHONY : src/text.cxx.s
 
 src/winbgi.obj: src/winbgi.cxx.obj
@@ -302,7 +302,7 @@ src/winbgi.obj: src/winbgi.cxx.obj
 
 # target to build an object file
 src/winbgi.cxx.obj:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/winbgi.cxx.obj
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/winbgi.cxx.obj
 .PHONY : src/winbgi.cxx.obj
 
 src/winbgi.i: src/winbgi.cxx.i
@@ -310,7 +310,7 @@ src/winbgi.i: src/winbgi.cxx.i
 
 # target to preprocess a source file
 src/winbgi.cxx.i:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/winbgi.cxx.i
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/winbgi.cxx.i
 .PHONY : src/winbgi.cxx.i
 
 src/winbgi.s: src/winbgi.cxx.s
@@ -318,7 +318,7 @@ src/winbgi.s: src/winbgi.cxx.s
 
 # target to generate assembly for a file
 src/winbgi.cxx.s:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/winbgi.cxx.s
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/winbgi.cxx.s
 .PHONY : src/winbgi.cxx.s
 
 src/winthread.obj: src/winthread.cxx.obj
@@ -326,7 +326,7 @@ src/winthread.obj: src/winthread.cxx.obj
 
 # target to build an object file
 src/winthread.cxx.obj:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/winthread.cxx.obj
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/winthread.cxx.obj
 .PHONY : src/winthread.cxx.obj
 
 src/winthread.i: src/winthread.cxx.i
@@ -334,7 +334,7 @@ src/winthread.i: src/winthread.cxx.i
 
 # target to preprocess a source file
 src/winthread.cxx.i:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/winthread.cxx.i
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/winthread.cxx.i
 .PHONY : src/winthread.cxx.i
 
 src/winthread.s: src/winthread.cxx.s
@@ -342,7 +342,7 @@ src/winthread.s: src/winthread.cxx.s
 
 # target to generate assembly for a file
 src/winthread.cxx.s:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/winthread.cxx.s
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f libbgi\CMakeFiles\bgi.dir\build.make libbgi/CMakeFiles/bgi.dir/src/winthread.cxx.s
 .PHONY : src/winthread.cxx.s
 
 # Help Target
@@ -392,6 +392,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,5 +1,5 @@
 libbgi/CMakeFiles/bgi.dir/src/text.cxx.obj: \
- D:\Users\270331389\source\repos\103.1\task\ 5\libbgi\src\text.cxx \
+ D:\Users\270331389\source\repos\103.1-1\task\ 5\libbgi\src\text.cxx \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/_mingw_mac.h \
  C:/msys64/mingw64/include/_mingw_secapi.h \
@@ -330,8 +330,8 @@ libbgi/CMakeFiles/bgi.dir/src/text.cxx.obj: \
  C:/msys64/mingw64/include/c++/12.2.0/bits/istream.tcc \
  C:/msys64/mingw64/include/c++/12.2.0/sstream \
  C:/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
- D:/Users/270331389/source/repos/103.1/task\ 5/libbgi/include/bgi/winbgim.h \
- D:/Users/270331389/source/repos/103.1/task\ 5/libbgi/include/bgi/winbgitypes.h \
+ D:/Users/270331389/source/repos/103.1-1/task\ 5/libbgi/include/bgi/winbgim.h \
+ D:/Users/270331389/source/repos/103.1-1/task\ 5/libbgi/include/bgi/winbgitypes.h \
  C:/msys64/mingw64/include/tchar.h \
  C:/msys64/mingw64/include/sec_api/tchar_s.h \
  C:/msys64/mingw64/include/c++/12.2.0/queue \
@@ -346,4 +346,4 @@ libbgi/CMakeFiles/bgi.dir/src/text.cxx.obj: \
  C:/msys64/mingw64/include/c++/12.2.0/bits/stl_heap.h \
  C:/msys64/mingw64/include/c++/12.2.0/bits/stl_queue.h \
  C:/msys64/mingw64/include/c++/12.2.0/bits/uses_allocator.h \
- D:/Users/270331389/source/repos/103.1/task\ 5/libbgi/include/bgi/winbgim.h
+ D:/Users/270331389/source/repos/103.1-1/task\ 5/libbgi/include/bgi/winbgim.h

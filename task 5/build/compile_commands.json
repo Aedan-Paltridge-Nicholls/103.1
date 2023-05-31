@@ -1,62 +1,62 @@
 [
 {
-  "directory": "D:/Users/270331389/source/repos/103.1/task 5/build/libbgi",
-  "command": "g++  @CMakeFiles/bgi.dir/includes_CXX.rsp  -m64 -fno-rtti -fno-exceptions -Wno-error  -Wwrite-strings -Wno-narrowing -fpermissive -g -std=gnu++11 -o CMakeFiles\\bgi.dir\\src\\drawing.cxx.obj -c \"D:\\Users\\270331389\\source\\repos\\103.1\\task 5\\libbgi\\src\\drawing.cxx\"",
-  "file": "D:/Users/270331389/source/repos/103.1/task 5/libbgi/src/drawing.cxx",
+  "directory": "D:/Users/270331389/source/repos/103.1-1/task 5/build/libbgi",
+  "command": "g++  @CMakeFiles/bgi.dir/includes_CXX.rsp  -m64 -fno-rtti -fno-exceptions -Wno-error  -Wwrite-strings -Wno-narrowing -fpermissive -g -std=gnu++11 -o CMakeFiles\\bgi.dir\\src\\drawing.cxx.obj -c \"D:\\Users\\270331389\\source\\repos\\103.1-1\\task 5\\libbgi\\src\\drawing.cxx\"",
+  "file": "D:/Users/270331389/source/repos/103.1-1/task 5/libbgi/src/drawing.cxx",
   "output": "libbgi/CMakeFiles/bgi.dir/src/drawing.cxx.obj"
 },
 {
-  "directory": "D:/Users/270331389/source/repos/103.1/task 5/build/libbgi",
-  "command": "g++  @CMakeFiles/bgi.dir/includes_CXX.rsp  -m64 -fno-rtti -fno-exceptions -Wno-error  -Wwrite-strings -Wno-narrowing -fpermissive -g -std=gnu++11 -o CMakeFiles\\bgi.dir\\src\\misc.cxx.obj -c \"D:\\Users\\270331389\\source\\repos\\103.1\\task 5\\libbgi\\src\\misc.cxx\"",
-  "file": "D:/Users/270331389/source/repos/103.1/task 5/libbgi/src/misc.cxx",
+  "directory": "D:/Users/270331389/source/repos/103.1-1/task 5/build/libbgi",
+  "command": "g++  @CMakeFiles/bgi.dir/includes_CXX.rsp  -m64 -fno-rtti -fno-exceptions -Wno-error  -Wwrite-strings -Wno-narrowing -fpermissive -g -std=gnu++11 -o CMakeFiles\\bgi.dir\\src\\misc.cxx.obj -c \"D:\\Users\\270331389\\source\\repos\\103.1-1\\task 5\\libbgi\\src\\misc.cxx\"",
+  "file": "D:/Users/270331389/source/repos/103.1-1/task 5/libbgi/src/misc.cxx",
   "output": "libbgi/CMakeFiles/bgi.dir/src/misc.cxx.obj"
 },
 {
-  "directory": "D:/Users/270331389/source/repos/103.1/task 5/build/libbgi",
-  "command": "g++  @CMakeFiles/bgi.dir/includes_CXX.rsp  -m64 -fno-rtti -fno-exceptions -Wno-error  -Wwrite-strings -Wno-narrowing -fpermissive -g -std=gnu++11 -o CMakeFiles\\bgi.dir\\src\\mouse.cxx.obj -c \"D:\\Users\\270331389\\source\\repos\\103.1\\task 5\\libbgi\\src\\mouse.cxx\"",
-  "file": "D:/Users/270331389/source/repos/103.1/task 5/libbgi/src/mouse.cxx",
+  "directory": "D:/Users/270331389/source/repos/103.1-1/task 5/build/libbgi",
+  "command": "g++  @CMakeFiles/bgi.dir/includes_CXX.rsp  -m64 -fno-rtti -fno-exceptions -Wno-error  -Wwrite-strings -Wno-narrowing -fpermissive -g -std=gnu++11 -o CMakeFiles\\bgi.dir\\src\\mouse.cxx.obj -c \"D:\\Users\\270331389\\source\\repos\\103.1-1\\task 5\\libbgi\\src\\mouse.cxx\"",
+  "file": "D:/Users/270331389/source/repos/103.1-1/task 5/libbgi/src/mouse.cxx",
   "output": "libbgi/CMakeFiles/bgi.dir/src/mouse.cxx.obj"
 },
 {
-  "directory": "D:/Users/270331389/source/repos/103.1/task 5/build/libbgi",
-  "command": "g++  @CMakeFiles/bgi.dir/includes_CXX.rsp  -m64 -fno-rtti -fno-exceptions -Wno-error  -Wwrite-strings -Wno-narrowing -fpermissive -g -std=gnu++11 -o CMakeFiles\\bgi.dir\\src\\palette.cxx.obj -c \"D:\\Users\\270331389\\source\\repos\\103.1\\task 5\\libbgi\\src\\palette.cxx\"",
-  "file": "D:/Users/270331389/source/repos/103.1/task 5/libbgi/src/palette.cxx",
+  "directory": "D:/Users/270331389/source/repos/103.1-1/task 5/build/libbgi",
+  "command": "g++  @CMakeFiles/bgi.dir/includes_CXX.rsp  -m64 -fno-rtti -fno-exceptions -Wno-error  -Wwrite-strings -Wno-narrowing -fpermissive -g -std=gnu++11 -o CMakeFiles\\bgi.dir\\src\\palette.cxx.obj -c \"D:\\Users\\270331389\\source\\repos\\103.1-1\\task 5\\libbgi\\src\\palette.cxx\"",
+  "file": "D:/Users/270331389/source/repos/103.1-1/task 5/libbgi/src/palette.cxx",
   "output": "libbgi/CMakeFiles/bgi.dir/src/palette.cxx.obj"
 },
 {
-  "directory": "D:/Users/270331389/source/repos/103.1/task 5/build/libbgi",
-  "command": "g++  @CMakeFiles/bgi.dir/includes_CXX.rsp  -m64 -fno-rtti -fno-exceptions -Wno-error  -Wwrite-strings -Wno-narrowing -fpermissive -g -std=gnu++11 -o CMakeFiles\\bgi.dir\\src\\text.cxx.obj -c \"D:\\Users\\270331389\\source\\repos\\103.1\\task 5\\libbgi\\src\\text.cxx\"",
-  "file": "D:/Users/270331389/source/repos/103.1/task 5/libbgi/src/text.cxx",
+  "directory": "D:/Users/270331389/source/repos/103.1-1/task 5/build/libbgi",
+  "command": "g++  @CMakeFiles/bgi.dir/includes_CXX.rsp  -m64 -fno-rtti -fno-exceptions -Wno-error  -Wwrite-strings -Wno-narrowing -fpermissive -g -std=gnu++11 -o CMakeFiles\\bgi.dir\\src\\text.cxx.obj -c \"D:\\Users\\270331389\\source\\repos\\103.1-1\\task 5\\libbgi\\src\\text.cxx\"",
+  "file": "D:/Users/270331389/source/repos/103.1-1/task 5/libbgi/src/text.cxx",
   "output": "libbgi/CMakeFiles/bgi.dir/src/text.cxx.obj"
 },
 {
-  "directory": "D:/Users/270331389/source/repos/103.1/task 5/build/libbgi",
-  "command": "g++  @CMakeFiles/bgi.dir/includes_CXX.rsp  -m64 -fno-rtti -fno-exceptions -Wno-error  -Wwrite-strings -Wno-narrowing -fpermissive -g -std=gnu++11 -o CMakeFiles\\bgi.dir\\src\\winbgi.cxx.obj -c \"D:\\Users\\270331389\\source\\repos\\103.1\\task 5\\libbgi\\src\\winbgi.cxx\"",
-  "file": "D:/Users/270331389/source/repos/103.1/task 5/libbgi/src/winbgi.cxx",
+  "directory": "D:/Users/270331389/source/repos/103.1-1/task 5/build/libbgi",
+  "command": "g++  @CMakeFiles/bgi.dir/includes_CXX.rsp  -m64 -fno-rtti -fno-exceptions -Wno-error  -Wwrite-strings -Wno-narrowing -fpermissive -g -std=gnu++11 -o CMakeFiles\\bgi.dir\\src\\winbgi.cxx.obj -c \"D:\\Users\\270331389\\source\\repos\\103.1-1\\task 5\\libbgi\\src\\winbgi.cxx\"",
+  "file": "D:/Users/270331389/source/repos/103.1-1/task 5/libbgi/src/winbgi.cxx",
   "output": "libbgi/CMakeFiles/bgi.dir/src/winbgi.cxx.obj"
 },
 {
-  "directory": "D:/Users/270331389/source/repos/103.1/task 5/build/libbgi",
-  "command": "g++  @CMakeFiles/bgi.dir/includes_CXX.rsp  -m64 -fno-rtti -fno-exceptions -Wno-error  -Wwrite-strings -Wno-narrowing -fpermissive -g -std=gnu++11 -o CMakeFiles\\bgi.dir\\src\\winthread.cxx.obj -c \"D:\\Users\\270331389\\source\\repos\\103.1\\task 5\\libbgi\\src\\winthread.cxx\"",
-  "file": "D:/Users/270331389/source/repos/103.1/task 5/libbgi/src/winthread.cxx",
+  "directory": "D:/Users/270331389/source/repos/103.1-1/task 5/build/libbgi",
+  "command": "g++  @CMakeFiles/bgi.dir/includes_CXX.rsp  -m64 -fno-rtti -fno-exceptions -Wno-error  -Wwrite-strings -Wno-narrowing -fpermissive -g -std=gnu++11 -o CMakeFiles\\bgi.dir\\src\\winthread.cxx.obj -c \"D:\\Users\\270331389\\source\\repos\\103.1-1\\task 5\\libbgi\\src\\winthread.cxx\"",
+  "file": "D:/Users/270331389/source/repos/103.1-1/task 5/libbgi/src/winthread.cxx",
   "output": "libbgi/CMakeFiles/bgi.dir/src/winthread.cxx.obj"
 },
 {
-  "directory": "D:/Users/270331389/source/repos/103.1/task 5/build/libbgi",
-  "command": "g++  @CMakeFiles/bgi.dir/includes_CXX.rsp  -m64 -fno-rtti -fno-exceptions -Wno-error  -Wwrite-strings -Wno-narrowing -fpermissive -g -std=gnu++11 -o CMakeFiles\\bgi.dir\\src\\dibutil.cxx.obj -c \"D:\\Users\\270331389\\source\\repos\\103.1\\task 5\\libbgi\\src\\dibutil.cxx\"",
-  "file": "D:/Users/270331389/source/repos/103.1/task 5/libbgi/src/dibutil.cxx",
+  "directory": "D:/Users/270331389/source/repos/103.1-1/task 5/build/libbgi",
+  "command": "g++  @CMakeFiles/bgi.dir/includes_CXX.rsp  -m64 -fno-rtti -fno-exceptions -Wno-error  -Wwrite-strings -Wno-narrowing -fpermissive -g -std=gnu++11 -o CMakeFiles\\bgi.dir\\src\\dibutil.cxx.obj -c \"D:\\Users\\270331389\\source\\repos\\103.1-1\\task 5\\libbgi\\src\\dibutil.cxx\"",
+  "file": "D:/Users/270331389/source/repos/103.1-1/task 5/libbgi/src/dibutil.cxx",
   "output": "libbgi/CMakeFiles/bgi.dir/src/dibutil.cxx.obj"
 },
 {
-  "directory": "D:/Users/270331389/source/repos/103.1/task 5/build/libbgi",
-  "command": "g++  @CMakeFiles/bgi.dir/includes_CXX.rsp  -m64 -fno-rtti -fno-exceptions -Wno-error  -Wwrite-strings -Wno-narrowing -fpermissive -g -std=gnu++11 -o CMakeFiles\\bgi.dir\\src\\file.cxx.obj -c \"D:\\Users\\270331389\\source\\repos\\103.1\\task 5\\libbgi\\src\\file.cxx\"",
-  "file": "D:/Users/270331389/source/repos/103.1/task 5/libbgi/src/file.cxx",
+  "directory": "D:/Users/270331389/source/repos/103.1-1/task 5/build/libbgi",
+  "command": "g++  @CMakeFiles/bgi.dir/includes_CXX.rsp  -m64 -fno-rtti -fno-exceptions -Wno-error  -Wwrite-strings -Wno-narrowing -fpermissive -g -std=gnu++11 -o CMakeFiles\\bgi.dir\\src\\file.cxx.obj -c \"D:\\Users\\270331389\\source\\repos\\103.1-1\\task 5\\libbgi\\src\\file.cxx\"",
+  "file": "D:/Users/270331389/source/repos/103.1-1/task 5/libbgi/src/file.cxx",
   "output": "libbgi/CMakeFiles/bgi.dir/src/file.cxx.obj"
 },
 {
-  "directory": "D:/Users/270331389/source/repos/103.1/task 5/build/test",
-  "command": "g++  @CMakeFiles/testbgi.dir/includes_CXX.rsp  -m64 -fno-rtti -fno-exceptions -Wno-error  -Wwrite-strings -Wno-narrowing -fpermissive -g -std=gnu++11 -o CMakeFiles\\testbgi.dir\\test.cpp.obj -c \"D:\\Users\\270331389\\source\\repos\\103.1\\task 5\\test\\test.cpp\"",
-  "file": "D:/Users/270331389/source/repos/103.1/task 5/test/test.cpp",
+  "directory": "D:/Users/270331389/source/repos/103.1-1/task 5/build/test",
+  "command": "g++  @CMakeFiles/testbgi.dir/includes_CXX.rsp  -m64 -fno-rtti -fno-exceptions -Wno-error  -Wwrite-strings -Wno-narrowing -fpermissive -g -std=gnu++11 -o CMakeFiles\\testbgi.dir\\test.cpp.obj -c \"D:\\Users\\270331389\\source\\repos\\103.1-1\\task 5\\test\\test.cpp\"",
+  "file": "D:/Users/270331389/source/repos/103.1-1/task 5/test/test.cpp",
   "output": "test/CMakeFiles/testbgi.dir/test.cpp.obj"
 }
 ]

@@ -1,5 +1,5 @@
 libbgi/CMakeFiles/bgi.dir/src/file.cxx.obj: \
- D:\Users\270331389\source\repos\103.1\task\ 5\libbgi\src\file.cxx \
+ D:\Users\270331389\source\repos\103.1-1\task\ 5\libbgi\src\file.cxx \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/_mingw_mac.h \
  C:/msys64/mingw64/include/_mingw_secapi.h \
@@ -231,9 +231,9 @@ libbgi/CMakeFiles/bgi.dir/src/file.cxx.obj: \
  C:/msys64/mingw64/include/c++/12.2.0/ext/type_traits.h \
  C:/msys64/mingw64/include/math.h C:/msys64/mingw64/include/io.h \
  C:/msys64/mingw64/include/direct.h \
- D:/Users/270331389/source/repos/103.1/task\ 5/libbgi/include/bgi/dibutil.h \
- D:/Users/270331389/source/repos/103.1/task\ 5/libbgi/include/bgi/dibapi.h \
- D:/Users/270331389/source/repos/103.1/task\ 5/libbgi/include/bgi/winbgitypes.h \
+ D:/Users/270331389/source/repos/103.1-1/task\ 5/libbgi/include/bgi/dibutil.h \
+ D:/Users/270331389/source/repos/103.1-1/task\ 5/libbgi/include/bgi/dibapi.h \
+ D:/Users/270331389/source/repos/103.1-1/task\ 5/libbgi/include/bgi/winbgitypes.h \
  C:/msys64/mingw64/include/tchar.h \
  C:/msys64/mingw64/include/sec_api/tchar_s.h \
  C:/msys64/mingw64/include/c++/12.2.0/queue \
@@ -306,7 +306,7 @@ libbgi/CMakeFiles/bgi.dir/src/file.cxx.obj: \
  C:/msys64/mingw64/include/c++/12.2.0/cerrno \
  C:/msys64/mingw64/include/c++/12.2.0/bits/charconv.h \
  C:/msys64/mingw64/include/c++/12.2.0/bits/basic_string.tcc \
- D:/Users/270331389/source/repos/103.1/task\ 5/libbgi/include/bgi/winbgim.h \
+ D:/Users/270331389/source/repos/103.1-1/task\ 5/libbgi/include/bgi/winbgim.h \
  C:/msys64/mingw64/include/c++/12.2.0/sstream \
  C:/msys64/mingw64/include/c++/12.2.0/istream \
  C:/msys64/mingw64/include/c++/12.2.0/ios \

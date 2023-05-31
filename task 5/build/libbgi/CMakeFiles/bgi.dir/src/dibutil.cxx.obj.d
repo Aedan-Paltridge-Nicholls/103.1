@@ -1,5 +1,5 @@
 libbgi/CMakeFiles/bgi.dir/src/dibutil.cxx.obj: \
- D:\Users\270331389\source\repos\103.1\task\ 5\libbgi\src\dibutil.cxx \
+ D:\Users\270331389\source\repos\103.1-1\task\ 5\libbgi\src\dibutil.cxx \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/_mingw_mac.h \
  C:/msys64/mingw64/include/_mingw_secapi.h \
@@ -221,8 +221,8 @@ libbgi/CMakeFiles/bgi.dir/src/dibutil.cxx.obj: \
  C:/msys64/mingw64/include/sec_api/stralign_s.h \
  C:/msys64/mingw64/include/winsvc.h C:/msys64/mingw64/include/mcx.h \
  C:/msys64/mingw64/include/imm.h C:/msys64/mingw64/include/assert.h \
- D:/Users/270331389/source/repos/103.1/task\ 5/libbgi/include/bgi/dibapi.h \
- D:/Users/270331389/source/repos/103.1/task\ 5/libbgi/include/bgi/dibutil.h \
+ D:/Users/270331389/source/repos/103.1-1/task\ 5/libbgi/include/bgi/dibapi.h \
+ D:/Users/270331389/source/repos/103.1-1/task\ 5/libbgi/include/bgi/dibutil.h \
  C:/msys64/mingw64/include/stdio.h \
  C:/msys64/mingw64/include/corecrt_stdio_config.h \
  C:/msys64/mingw64/include/_mingw_off_t.h \

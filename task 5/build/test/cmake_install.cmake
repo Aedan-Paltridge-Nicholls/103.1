@@ -1,4 +1,4 @@
-# Install script for directory: D:/Users/270331389/source/repos/103.1/task 5/test
+# Install script for directory: D:/Users/270331389/source/repos/103.1-1/task 5/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,4 +1,4 @@
-# Install script for directory: D:/Users/270331389/source/repos/103.1/task 5
+# Install script for directory: D:/Users/270331389/source/repos/103.1-1/task 5
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/Users/270331389/source/repos/103.1/task 5/build/libbgi/cmake_install.cmake")
-  include("D:/Users/270331389/source/repos/103.1/task 5/build/test/cmake_install.cmake")
+  include("D:/Users/270331389/source/repos/103.1-1/task 5/build/libbgi/cmake_install.cmake")
+  include("D:/Users/270331389/source/repos/103.1-1/task 5/build/test/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Users/270331389/source/repos/103.1/task 5/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Users/270331389/source/repos/103.1-1/task 5/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

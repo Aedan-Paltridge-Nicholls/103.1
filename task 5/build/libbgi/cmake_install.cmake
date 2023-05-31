@@ -1,4 +1,4 @@
-# Install script for directory: D:/Users/270331389/source/repos/103.1/task 5/libbgi
+# Install script for directory: D:/Users/270331389/source/repos/103.1-1/task 5/libbgi
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -56,10 +56,10 @@ RM = D:\Users\270331389\cmake-3.26.4-windows-x86_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Users\270331389\source\repos\103.1\task 5"
+CMAKE_SOURCE_DIR = "D:\Users\270331389\source\repos\103.1-1\task 5"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Users\270331389\source\repos\103.1\task 5\build"
+CMAKE_BINARY_DIR = "D:\Users\270331389\source\repos\103.1-1\task 5\build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(CMAKE_COMMAND) -E cmake_progress_start "D:\Users\270331389\source\repos\103.1\task 5\build\CMakeFiles" "D:\Users\270331389\source\repos\103.1\task 5\build\test\\CMakeFiles\progress.marks"
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Users\270331389\source\repos\103.1\task 5\build\CMakeFiles" 0
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(CMAKE_COMMAND) -E cmake_progress_start "D:\Users\270331389\source\repos\103.1-1\task 5\build\CMakeFiles" "D:\Users\270331389\source\repos\103.1-1\task 5\build\test\\CMakeFiles\progress.marks"
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Users\270331389\source\repos\103.1-1\task 5\build\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/clean
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/preinstall
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/preinstall
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/CMakeFiles/testbgi.dir/rule:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/CMakeFiles/testbgi.dir/rule
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/CMakeFiles/testbgi.dir/rule
 .PHONY : test/CMakeFiles/testbgi.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ testbgi: test/CMakeFiles/testbgi.dir/rule
 
 # fast build rule for target.
 testbgi/fast:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\testbgi.dir\build.make test/CMakeFiles/testbgi.dir/build
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\testbgi.dir\build.make test/CMakeFiles/testbgi.dir/build
 .PHONY : testbgi/fast
 
 test.obj: test.cpp.obj
@@ -134,7 +134,7 @@ test.obj: test.cpp.obj
 
 # target to build an object file
 test.cpp.obj:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\testbgi.dir\build.make test/CMakeFiles/testbgi.dir/test.cpp.obj
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\testbgi.dir\build.make test/CMakeFiles/testbgi.dir/test.cpp.obj
 .PHONY : test.cpp.obj
 
 test.i: test.cpp.i
@@ -142,7 +142,7 @@ test.i: test.cpp.i
 
 # target to preprocess a source file
 test.cpp.i:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\testbgi.dir\build.make test/CMakeFiles/testbgi.dir/test.cpp.i
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\testbgi.dir\build.make test/CMakeFiles/testbgi.dir/test.cpp.i
 .PHONY : test.cpp.i
 
 test.s: test.cpp.s
@@ -150,7 +150,7 @@ test.s: test.cpp.s
 
 # target to generate assembly for a file
 test.cpp.s:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\testbgi.dir\build.make test/CMakeFiles/testbgi.dir/test.cpp.s
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\testbgi.dir\build.make test/CMakeFiles/testbgi.dir/test.cpp.s
 .PHONY : test.cpp.s
 
 # Help Target
@@ -176,6 +176,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d D:\Users\270331~1\source\repos\103.1\TASK5~1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\Users\270331~1\source\repos\103.1-1\TASK5~1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
