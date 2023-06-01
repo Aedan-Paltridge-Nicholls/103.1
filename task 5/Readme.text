@@ -4,7 +4,7 @@ to use cmake you need
   https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
 2. the CMake Tools extension for VS Code 
   https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools
-3. to install cmake from https://cmake.org/download/ using the installer 
+3. to install cmake from https://cmake.org/download/ using the installer and add it to path 
 4.install msys2 from https://www.msys2.org/ 
     Following the Installation instructions on the website
     then install the Mingw-w64 toolchain with this command in a MSYS2 terminal
