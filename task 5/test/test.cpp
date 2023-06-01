@@ -189,7 +189,7 @@ void Other()//Draws a random other shape.
                     
                 }
                  drawpoly(4,otherShape);// Calls the drawpoly function of graphics.h and the number of points, and the othershape array with the points for a triangle one.
-             drawpoly(4,otherShape2);// Calls the drawpoly function of graphics.h and the number of points, and the othershape array with the points for a triangle two.
+                 drawpoly(4,otherShape2);// Calls the drawpoly function of graphics.h and the number of points, and the othershape array with the points for a triangle two.
             }
             
             break;
@@ -232,10 +232,10 @@ void Other()//Draws a random other shape.
                     }
                     
                 }
-             drawpoly(4,otherShape1);// Calls the drawpoly function of graphics.h and the number of points, and the othershape array with the points for a triangle one.
-             drawpoly(4,otherShape2);// Calls the drawpoly function of graphics.h and the number of points, and the othershape array with the points for a triangle two.
-             drawpoly(4,otherShape3);// Calls the drawpoly function of graphics.h and the number of points, and the othershape array with the points for a triangle three.
-             drawpoly(4,otherShape4);// Calls the drawpoly function of graphics.h and the number of points, and the othershape array with the points for a triangle four.
+                drawpoly(4,otherShape1);// Calls the drawpoly function of graphics.h and the number of points, and the othershape array with the points for a triangle one.
+                drawpoly(4,otherShape2);// Calls the drawpoly function of graphics.h and the number of points, and the othershape array with the points for a triangle two.
+                drawpoly(4,otherShape3);// Calls the drawpoly function of graphics.h and the number of points, and the othershape array with the points for a triangle three.
+                drawpoly(4,otherShape4);// Calls the drawpoly function of graphics.h and the number of points, and the othershape array with the points for a triangle four.
             }
             break;
      default:
@@ -260,7 +260,7 @@ int MainMenu()//This is the main menu
         {
             case 'a':
             {
-             main();//Calls the main function .
+              main();//Calls the main function .
             }
             break;
             case 'b':
@@ -273,12 +273,11 @@ int MainMenu()//This is the main menu
                 exit(0);//Exits the program.
             }
             break;
-        
             default:
             {
-             outtext( "Invaild Input");//Calls the outtextxy function of graphics.h and draws text at the top of the viewport .
-             delay(1000);//Delay the next line by a set number of milliseconds
-             clearviewport();
+                outtext( "Invaild Input");//Calls the outtextxy function of graphics.h and draws text at the top of the viewport .
+                 delay(1000);//Calls the Delay function of c++and delays the next line by a set number of milliseconds.
+                clearviewport();//Calls the clearviewport function of graphics.h and Clears viewport .
             }
             break;
         }
@@ -288,36 +287,36 @@ int MainMenu()//This is the main menu
     
   leave:return 0;
 }
-void CalculateScore()
+void CalculateScore()//Calculates the Score and adds 10 to score;
 {
- score += 10;
+ score += 10;// Add ten to the scor value.
 
- clearviewport( );
- std::string output = "the score is : ";
- std::string scoreImp = std::to_string(score); 
- output.append(scoreImp);
- std::string Str17 = output;
- char *Fixer = new char[Str17.length()+1];
-  strcpy(Fixer,Str17.c_str());
-    outtextxy(20, 70,Fixer);
-     delay(1000);
-    delete [] Fixer;
-     clearviewport( );
-   MainMenu();
+ clearviewport( );//Calls the clearviewport function of graphics.h and Clears viewport .
+ std::string output = "the score is : ";//Sets the content  of the string output.
+ std::string scoreImp = std::to_string(score); //turns the score integer to a string.
+ output.append(scoreImp);//Adds the string scoreimp to the end of the string output.
+ std::string Str17 = output;//Sets the content of the string Str7 to be the same as the string output .
+ char *Fixer = new char[Str17.length()+1];//Creates the char* fixer and makes it one longer than str7.
+  strcpy(Fixer,Str17.c_str());//Makes the char* fixer and makes have the same content as str7.
+    outtextxy(20, 70,Fixer);//Calls the outtextxy function of graphics.h and draws text at the top of the viewport .
+     delay(1000);//Calls the Delay function of c++and delays the next line by a set number of milliseconds.
+    delete [] Fixer;//Deletes fixer
+     clearviewport( );//Calls the clearviewport function of graphics.h and Clears viewport .
+   MainMenu();//Calls the main menu function .
   
 }
-void FinalScore()
+void FinalScore()//Calculates the final Score;
 {
-    clearviewport( );
- std::string output = "the score is : ";
- std::string scoreImp = std::to_string(score); 
- output.append(scoreImp);
- std::string Str7 = output;
- char *Fixer = new char[Str7.length()+1];
-  strcpy(Fixer,Str7.c_str());
-    outtextxy(20, 70,Fixer);
-    delete [] Fixer;
-   MainMenu();
+    clearviewport( );//Calls the clearviewport function of graphics.h and Clears viewport .
+ std::string output = "the score is : ";//Sets the content  of the string output.
+ std::string scoreImp = std::to_string(score); //turns the score integer to a string.
+ output.append(scoreImp);//Adds the string scoreimp to the end of the string output. 
+ std::string Str7 = output;//Sets the content of the string Str7 to be the same as the string output .
+ char *Fixer = new char[Str7.length()+1];//Creates the char* fixer and makes it one longer than str7. 
+  strcpy(Fixer,Str7.c_str());//Makes the char* fixer and makes have the same content as str7.
+    outtextxy(20, 70,Fixer);//Calls the outtextxy function of graphics.h and draws Fixer as text at the top of the viewport .
+    delete [] Fixer;//Deletes fixer
+   MainMenu();//Calls the main menu function .
 }
 int main()
 {
