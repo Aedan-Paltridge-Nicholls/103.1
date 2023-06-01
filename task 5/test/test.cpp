@@ -260,6 +260,7 @@ int MainMenu()//This is the main menu
         {
             case 'a':
             {
+                goto  leave;
               main();//Calls the main function .
             }
             break;
@@ -276,7 +277,7 @@ int MainMenu()//This is the main menu
             default:
             {
                 outtext( "Invaild Input");//Calls the outtext function of graphics.h and draws text at the top of the viewport .
-                 delay(1000);//Calls the Delay function of c++and delays the next line by a set number of milliseconds.
+                delay(1000);//Calls the Delay function of c++and delays the next line by a set number of milliseconds.
                 clearviewport();//Calls the clearviewport function of graphics.h and Clears viewport .
             }
             break;
@@ -371,6 +372,7 @@ int main()
             c=0,Cs=0;//resets the value of c & Cs
             CalculateScore();
         } 
+        else if(c=='x'){exit(0);}//Ends the program.
         else
         {   clearviewport( );//Calls the clearviewport function of graphics.h and Clears viewport .
             c=0,Cs=0;//resets the value of c & Cs
@@ -378,9 +380,9 @@ int main()
             outtextxy(20, 150, "INCORECT SHAPE try again");//Calls the outtextxy function of graphics.h and draws text at x,y.
             main();//Calls the main function .
         }
-    }   while ((c != 'x') && (c != 'X'));//loops if c isn't equal to x or X
+    }   while (true);//loops the program.
   
     
-    return 0;//end the programme
+    return 0;
 }
 
