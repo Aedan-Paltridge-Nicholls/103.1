@@ -18,13 +18,13 @@ PlayerRecord Players[2];
 int main()
 {
 	bool exit =  false;
-	int imput;
+	int input;
 	while (exit == false)
 	{
 		//This is the main menu of the program.
 		std::cout << "\nEnter \n[1]Player Number\n[2]player's top speed\n[3]Player Position\n[4]display players\n[5]Exit\n";
-		std::cin >> imput;
-		switch (imput)
+		std::cin >> input;
+		switch (input)
 		{
 			case 1:
 			{
@@ -123,6 +123,12 @@ int main()
 							std::cout << "defender" << std::endl;
 						}
 						break;
+						default:
+						{
+							std::cout <<"INVALID INPUT VALID INPUT ARE [G] [M] [S] [W] [D]";
+							i--;
+						}
+						break;
 					}
 
 				}
@@ -134,6 +140,9 @@ int main()
 			}
 			break;
 			default:
+			{
+				std::cout <<"INVALID INPUT VALID INPUT ARE [1] [2] [3] [4] [5]";
+			}
 			break;
 		}
 
