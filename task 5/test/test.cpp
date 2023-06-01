@@ -37,7 +37,6 @@ void drawPixel(double x, double y, int color)//Draws a pixel at x,y.
     convertPixel(x, y);// Calls the convertPixel function and passes it x,y.
     putpixel(x, y, color);// Calls the convertPixel function and passes it x,y and the colour of the pixel.
 }
-
 void fill(double x, double y, int color)// Fills a space at x,y with a colour.
 {
     convertPixel(x, y);// Calls the convertPixel function and passes it x,y.
@@ -83,7 +82,6 @@ void Rectangle(int rectHeight,int rectwidth)//Draws a Rectangle with random leng
     draw_line_DDA({1 , rectHeight}, {rectwidth , rectHeight}, WHITE);// Calls the draw_line_DDA function and passes it point A & B and the colour of the line.
     fill((rectwidth-5),(rectHeight -5),WHITE);// Calls the fill function and passes it x,y and the colour to be filled.
 }
-
 void Other()//Draws a random other shape.
 {
     srand(time(nullptr)); //seeds the random number generator.
@@ -247,8 +245,8 @@ void Other()//Draws a random other shape.
 int MainMenu()//This is the main menu
 {
     void FinalScore();//initializes the final score  function so it can call it  
-    int main();//initializes the main function so it can call it  
-    char MenuImp;// Holds user input.
+    int main();//initializes the main function so it can call it.  
+    char MenuImp;// Holds the users input.
     do
     {
         outtextxy(20, 170, "Press {A} For Play");//Calls the outtextxy function of graphics.h and draws text at x,y.
@@ -256,11 +254,10 @@ int MainMenu()//This is the main menu
         outtextxy(20, 210, "Press {C} To Exit");//Calls the outtextxy function of graphics.h and draws text at x,y.
        MenuImp = (char) getch( );//Takes a input from the user and sets MenuImp as its value.
         
-        switch (MenuImp)
+        switch (MenuImp)//This does an acton corresponding to MenuImp.
         {
             case 'a':
             {
-                goto  leave;
               main();//Calls the main function .
             }
             break;
@@ -286,11 +283,10 @@ int MainMenu()//This is the main menu
 
     } while (true);//loops the function.
     
-  leave:return 0;
 }
 void CalculateScore()//Calculates the Score and adds 10 to score;
 {
- score += 10;// Add ten to the scor value.
+ score += 10;// Add ten to the score value.
 
  clearviewport( );//Calls the clearviewport function of graphics.h and Clears viewport .
  std::string output = "the score is : ";//Sets the content  of the string output.
@@ -325,14 +321,14 @@ int main()
     srand(time(nullptr));//seeds the random number generator.
     char c,Cs;// c Holds user input, Cs holds the index of shape drawn in the veiw port.
     initwindow(Width,Height,"task5");//Creates the viewport sets its Width and Height and the name at the top of it as task5.
-      clearviewport( );//Calls the clearviewport function of graphics.h and Clears viewport .
+    clearviewport( );//Calls the clearviewport function of graphics.h and Clears viewport .
     rect = rand() %300+25;//generates a random number between 25 & 300.
     rect2 = rand() %300+25;//generates a random number between 25 & 300.
     
     int shape =  rand()%4+1;//generates a random number between 1 & 4.
     switch (shape)//Draws a random shape corresponding to shape.
     {
-        case 1:
+            case 1:
             {
                 triangle();//Calls the triangle function.
                 Cs ='b';// Sets the value of Cs as 'b'
@@ -370,7 +366,7 @@ int main()
         if (c == Cs )//Checks if c is equal to Cs
         {
             c=0,Cs=0;//resets the value of c & Cs
-            CalculateScore();
+            CalculateScore();;//Calls the CalculateScore function.
         } 
         else if(c=='x'){exit(0);}//Ends the program.
         else
