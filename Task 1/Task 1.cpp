@@ -19,9 +19,9 @@ int main()
 {
 	bool exit =  false;
 	int imput;
-	while (!exit)
+	while (exit == false)
 	{
-		std::cout << "\nEnter \n[1]Player Number\n[2]player's top speed\n[3]Player Position\n[4]display players\n";
+		std::cout << "\nEnter \n[1]Player Number\n[2]player's top speed\n[3]Player Position\n[4]display players\n[5]Exit";
 		std::cin >> imput;
 		switch (imput)
 		{
@@ -33,15 +33,17 @@ int main()
 					std::cout << "Enter Player Number\n" << "For player : " << (i+1) << "\n";
 					std::cin >> Players[i].PlayerNumber;
 				}
-			}break;
+			}
+			break;
 			case 2:
 			{
 				for (int i = 0; i < 2; i++)
 				{
-					std::cout << "player's top speed in MPH\n" << "For player : " << (i + 1) << "\n";
+					std::cout << "player's top speed\n" << "For player : " << (i + 1) << "\n";
 					std::cin >> Players[i].Playerspeed;
 				}
-			}break;
+			}
+			break;
 			case 3:
 			{
 				char PlayPos;
@@ -78,54 +80,60 @@ int main()
 						default:
 							break;
 					}
-				}break;
-				case 4:
+				}
+			}
+			break;	
+			case 4:
+			{
+				for (int i = 0; i < 2; i++)
 				{
-					for (int i = 0; i < 2; i++)
-					{
-						std::cout << "Player : " << (i + 1) << std::endl
+					std::cout << "Player : " << (i + 1) << std::endl
 						<< "Player Number :" << Players[i].PlayerNumber << std::endl
-						<< "Player top Speed in MPH: " << Players[i].Playerspeed << std::endl
+						<< "Player top Speed MPH: " << Players[i].Playerspeed << std::endl
 						<< "Player Player Position: ";
-						switch (Players[i].PlayerPosition)
+					switch (Players[i].PlayerPosition)
+					{
+						case goalkeeper:
 						{
-							case goalkeeper:
-							{
-								std::cout << "goalkeeper" << std::endl;
-							}break;
-							case midfielder:
-							{
-								std::cout << "midfielder" << std::endl;
-							}break;
-							case striker:
-							{
-								std::cout << "striker" << std::endl;
-							}break;
-							case winger:
-							{
-								std::cout << "winger" << std::endl;
-							}break;
-							case defender:
-							{
-								std::cout << "defender" << std::endl;
-							}break;
+							std::cout << "goalkeeper" << std::endl;
+						}break;
+						case midfielder:
+						{
+							std::cout << "midfielder" << std::endl;
+						}break;
+						case striker:
+						{
+							std::cout << "striker" << std::endl;
+						}break;
+						case winger:
+						{
+							std::cout << "winger" << std::endl;
+						}break;
+						case defender:
+						{
+							std::cout << "defender" << std::endl;
+						}break;
 
-							
-
-						}
+						
 
 					}
-				}break;
 
-			}break;
-			default:
+				}
+			}
 			break;
+			case 5:
+			{
+				exit =true;
+			}
+			default:
+				break;
 		}
 
 	}
 
 
 }
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
