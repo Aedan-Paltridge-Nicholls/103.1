@@ -30,7 +30,7 @@ Point convertPixel(A &x, A &y)//Adds Offsets and inverts x,y coordinates.
     x += Width - g_offSet2;//Adds Offset to x.
     y = -y;// inverts y 
     y += Height - g_offSet;//Adds Offset to y.
-    return {x, y};
+    return {x, y};//Returns the new values of x&y.
 }
 void drawPixel(double x, double y, int color)//Draws a pixel at x,y.
 {
@@ -254,7 +254,7 @@ int MainMenu()//This is the main menu
         outtextxy(20, 170, "Press {A} For Play");//Calls the outtextxy function of graphics.h and draws text at x,y.
         outtextxy(20, 190, "Press {B} For Final Score");//Calls the outtextxy function of graphics.h and draws text at x,y.
         outtextxy(20, 210, "Press {C} To Exit");//Calls the outtextxy function of graphics.h and draws text at x,y.
-       MenuImp = (char) getch( );//Takes a input from the user.
+       MenuImp = (char) getch( );//Takes a input from the user and sets MenuImp as its value.
         
         switch (MenuImp)
         {
@@ -275,7 +275,7 @@ int MainMenu()//This is the main menu
             break;
             default:
             {
-                outtext( "Invaild Input");//Calls the outtextxy function of graphics.h and draws text at the top of the viewport .
+                outtext( "Invaild Input");//Calls the outtext function of graphics.h and draws text at the top of the viewport .
                  delay(1000);//Calls the Delay function of c++and delays the next line by a set number of milliseconds.
                 clearviewport();//Calls the clearviewport function of graphics.h and Clears viewport .
             }
@@ -298,9 +298,9 @@ void CalculateScore()//Calculates the Score and adds 10 to score;
  std::string Str17 = output;//Sets the content of the string Str7 to be the same as the string output .
  char *Fixer = new char[Str17.length()+1];//Creates the char* fixer and makes it one longer than str7.
   strcpy(Fixer,Str17.c_str());//Makes the char* fixer and makes have the same content as str7.
-    outtextxy(20, 70,Fixer);//Calls the outtextxy function of graphics.h and draws text at the top of the viewport .
+    outtextxy(20, 70,Fixer);//Calls the outtext function of graphics.h and draws text at the top of the viewport .
      delay(1000);//Calls the Delay function of c++and delays the next line by a set number of milliseconds.
-    delete [] Fixer;//Deletes fixer
+    delete [] Fixer;//Deletes fixer.
      clearviewport( );//Calls the clearviewport function of graphics.h and Clears viewport .
    MainMenu();//Calls the main menu function .
   
@@ -314,79 +314,73 @@ void FinalScore()//Calculates the final Score;
  std::string Str7 = output;//Sets the content of the string Str7 to be the same as the string output .
  char *Fixer = new char[Str7.length()+1];//Creates the char* fixer and makes it one longer than str7. 
   strcpy(Fixer,Str7.c_str());//Makes the char* fixer and makes have the same content as str7.
-    outtextxy(20, 70,Fixer);//Calls the outtextxy function of graphics.h and draws Fixer as text at the top of the viewport .
-    delete [] Fixer;//Deletes fixer
+    outtextxy(20, 70,Fixer);//Calls the outtext function of graphics.h and draws Fixer as text at the top of the viewport .
+    delete [] Fixer;//Deletes fixer.
    MainMenu();//Calls the main menu function .
 }
 int main()
 {
  
-    srand(time(nullptr));
-    char c,Cs;
-    initwindow(Width,Height,"task5");
-      clearviewport( );
-    rect = rand() %300+25;
-    rect2 = rand() %300+25;
+    srand(time(nullptr));//seeds the random number generator.
+    char c,Cs;// c Holds user input, Cs holds the index of shape drawn in the veiw port.
+    initwindow(Width,Height,"task5");//Creates the viewport sets its  Width and Height and the name at the top of it as task5.
+      clearviewport( );//Calls the clearviewport function of graphics.h and Clears viewport .
+    rect = rand() %300+25;//generates a random number between 25 & 300.
+    rect2 = rand() %300+25;//generates a random number between 25 & 300.
     
-    int shape =  rand()%4+1;
-    switch (shape)
+    int shape =  rand()%4+1;//generates a random number between 1 & 4.
+    switch (shape)//Draws a random shape corresponding to shape.
     {
         case 1:
             {
-                triangle();
-                Cs ='b';
+                triangle();//Calls the triangle function.
+                Cs ='b';// Sets the value of Cs as 'b'
             }
             break;
             case 2:
             {
-                Rectangle(rect,rect2);
-                Cs ='a';
-               
+                Rectangle(rect,rect2);//Calls the Rectangle function, and passes it rect1 & rect2 ot randomize its size. 
+                Cs ='a';// Sets the value of Cs as 'a'
             }
             break;
             case 3:
             {
-             square();
-             Cs ='c';
+             square();//Calls the square function.
+             Cs ='c';// Sets the value of Cs as 'c'
             }
             break;
             case 4:
             {
-                Other();
-                Cs ='d';
+                Other();//Calls the Other function.
+                Cs ='d';// Sets the value of Cs as 'd'
             }
             break;
-            
-    
-     default:
-        break;
     }
-    
-    outtextxy(20, 130, "Identify the Shapes");
-    outtextxy(20, 150, "What Is the Current shape ?");
-    outtextxy(20, 170, "Press {A} if it is a Rectangle");
-    outtextxy(20, 190, "Press {B} if it is a Triangle");
-    outtextxy(20, 210, "Press {C} if it is a Square");
-    outtextxy(20, 230, "Press {D} if it is None of the above");
+    outtextxy(20, 130, "Identify the Shapes");//Calls the outtextxy function of graphics.h and draws text at x,y.
+    outtextxy(20, 150, "What Is the Current shape ?");//Calls the outtextxy function of graphics.h and draws text at x,y.
+    outtextxy(20, 170, "Press {A} if it is a Rectangle");//Calls the outtextxy function of graphics.h and draws text at x,y.
+    outtextxy(20, 190, "Press {B} if it is a Triangle");//Calls the outtextxy function of graphics.h and draws text at x,y.
+    outtextxy(20, 210, "Press {C} if it is a Square");//Calls the outtextxy function of graphics.h and draws text at x,y.
+    outtextxy(20, 230, "Press {D} if it is None of the above");//Calls the outtextxy function of graphics.h and draws text at x,y.
+    outtextxy(20, 250, "Press {x} To Exit");//Calls the outtextxy function of graphics.h and draws text at x,y.
     do
     {
-        c = (char) getch( );
-        if (c == Cs )
+        c = (char) getch( );//Takes a input from the user and sets c as its value  .
+        if (c == Cs )//Checks if c is equal to Cs
         {
-
-            std::cout << "vitory " << (int) c << std::endl;
-            c=0,Cs=0;
+            c=0,Cs=0;//resets the value of c & Cs
             CalculateScore();
         } 
-            else
-            {   clearviewport( );
-            outtextxy(20, 130, "Identify the Shapes");
-            outtextxy(20, 150, "INCORECT SHAPE try again");
-            main();
-            }
-    }   while ((c != 'x') && (c != 'X'));
-    getchar();
+        else
+        {   clearviewport( );//Calls the clearviewport function of graphics.h and Clears viewport .
+            c=0,Cs=0;//resets the value of c & Cs
+            outtextxy(20, 130, "Identify the Shapes");//Calls the outtextxy function of graphics.h and draws text at x,y.
+            outtextxy(20, 150, "INCORECT SHAPE try again");//Calls the outtextxy function of graphics.h and draws text at x,y.
+            main();//Calls the main function .
+        }
+    }   while ((c != 'x') && (c != 'X'));//loops if c isn't equal to x or X
+  
     
-    return 0;
+    return 0;//end the programme
 }
 
