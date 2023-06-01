@@ -4,13 +4,15 @@
 #include <iostream>
 enum Position
 {
+	// these are the Positions that can be set for each of the two Soccer players
 	goalkeeper, midfielder, striker, winger, defender
 }PPos;
 struct PlayerRecord
 {
-	int	PlayerNumber;
-	float Playerspeed;
-	Position PlayerPosition;
+	// these are the info that can be set for each of the two Soccer players
+	int	PlayerNumber;// the Soccer players number 
+	float Playerspeed; // the Soccer players top speed (in MPH)
+	Position PlayerPosition; // the Position of the Soccer Player  
 };
 PlayerRecord Players[2];
 int main()
@@ -36,7 +38,7 @@ int main()
 			{
 				for (int i = 0; i < 2; i++)
 				{
-					std::cout << "player's top speed\n" << "For player : " << (i + 1) << "\n";
+					std::cout << "player's top speed in MPH\n" << "For player : " << (i + 1) << "\n";
 					std::cin >> Players[i].Playerspeed;
 				}
 			}break;
@@ -77,15 +79,14 @@ int main()
 							break;
 					}
 				}break;
-			}break;	
 				case 4:
 				{
 					for (int i = 0; i < 2; i++)
 					{
 						std::cout << "Player : " << (i + 1) << std::endl
-							<< "Player Number :" << Players[i].PlayerNumber << std::endl
-							<< "Player top Speed MPH: " << Players[i].Playerspeed << std::endl
-							<< "Player Player Position: ";
+						<< "Player Number :" << Players[i].PlayerNumber << std::endl
+						<< "Player top Speed in MPH: " << Players[i].Playerspeed << std::endl
+						<< "Player Player Position: ";
 						switch (Players[i].PlayerPosition)
 						{
 							case goalkeeper:
@@ -116,9 +117,9 @@ int main()
 					}
 				}break;
 
-			
+			}break;
 			default:
-				break;
+			break;
 		}
 
 	}
