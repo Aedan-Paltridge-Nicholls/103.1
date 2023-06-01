@@ -2,20 +2,20 @@
 //
 #include <ctime>
 #include <iostream>
-const int XAxis = 3;
-const int YAxis = 3;
-int M1[XAxis][YAxis];
-int M2[XAxis][YAxis];
-int M3[XAxis][YAxis];
-int randoms()
+const int XAxis = 3;//This the X of the matrixs.
+const int YAxis = 3;//This the Y of the matrixs.
+int M1[XAxis][YAxis];//This creates matrix 1.
+int M2[XAxis][YAxis];//This creates matrix 2.
+int M3[XAxis][YAxis];//This creates matrix 3.
+int randoms()//This creates a random number 
 {
-	int random = (rand() % 10) + 1;
+	int random = (rand() % 10) + 1;//random number generator
 	return random;
 }
 void displaym1and2()
 {
 	
-	for (int i = 0; i < XAxis; i++)
+	for (int i = 0; i < XAxis; i++)//This randomizes the values of matrix 1 & 2.
 	{
 		for (int j = 0; j < YAxis; j++)
 		{
@@ -25,14 +25,14 @@ void displaym1and2()
 		}
 	}
 	std::cout << "\nMatrix 1";
-	for (int i = 0; i < XAxis; i++)
+	for (int i = 0; i < XAxis; i++)//This displays matrix 1.
 	{
 		std::cout << "\n{";
 		for (int j = 0; j < YAxis; j++) { std::cout << M1[i][j]<<","; }
 		std::cout << "}";
 	}
 	std::cout << "\nMatrix 2";
-	for (int i = 0; i < XAxis; i++)
+	for (int i = 0; i < XAxis; i++)//This displays matrix 2.
 	{
 		std::cout << "\n{";
 		for (int j = 0; j < YAxis; j++) { std::cout << M2[i][j] << ","; }
@@ -43,7 +43,7 @@ void displaym1and2()
 void matrix3()
 {
 	std::cout << "\nMatrix 3";
-	for (int i = 0; i < XAxis; i++)
+	for (int i = 0; i < XAxis; i++)//This adds matrix 1 & 2 then multiplies the sum by three then the value of displays matrix 3.
 	{
 		std::cout << "\n{";
 		for (int j = 0; j < YAxis; j++)
@@ -58,10 +58,9 @@ void matrix3()
 }
 int main()
 {
-	std::srand(time(nullptr));
-	
-	displaym1and2();
-	matrix3();
+	std::srand(time(nullptr));//This seeds the random number generator.
+	displaym1and2();//This calls the function displaym1and2.
+	matrix3();//This calls the function matrix3. 
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
