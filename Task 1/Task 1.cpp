@@ -22,7 +22,7 @@ int main()
 	while (exit == false)
 	{
 		//This is the main menu of the program.
-		std::cout << "\nEnter \n[1]Player Number\n[2]player's top speed\n[3]Player Position\n[4]display players\n[5]Exit";
+		std::cout << "\nEnter \n[1]Player Number\n[2]player's top speed\n[3]Player Position\n[4]display players\n[5]Exit\n";
 		std::cin >> imput;
 		switch (imput)
 		{
