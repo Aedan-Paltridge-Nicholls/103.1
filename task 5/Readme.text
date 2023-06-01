@@ -26,3 +26,5 @@ to use cmake you need
      then run CMake: Select a Kit. select a cMake kit ie: [Gcc 12.2.0 x86_64-mingw32(mingw64)] 
     using a g++ compiler. then run  CMake: Select Variant, Select Debug
 9. then on the status bar cilck on build then you can run it via the run button on the status bar.
+10. to be runing Visual Studio Code  through a developer terminal,
+ie:Developer PowerShell for VS 2019 or Developer Command Prompt for VS 2019,
