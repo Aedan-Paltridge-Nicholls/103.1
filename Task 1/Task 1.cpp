@@ -77,6 +77,7 @@ int main()
 							break;
 					}
 				}break;
+			}break;	
 				case 4:
 				{
 					for (int i = 0; i < 2; i++)
@@ -115,7 +116,7 @@ int main()
 					}
 				}break;
 
-			}break;
+			
 			default:
 				break;
 		}
