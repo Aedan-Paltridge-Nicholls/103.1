@@ -4,18 +4,18 @@
 #include <math.h>
 #include <ctime>
 #include <stdio.h>
-int i, j = 0, gd = DETECT, gm;
+int i, j = 0, gd = DETECT, gm;//This sets the graphics driver 
 int rect,rect2,score=0;//This set the score at 0 to start.
-const int Width = 800;//This  the width of the window. 
-const int Height = 600;//This  the Height of the window. 
-int g_offSet = 170;//This is offset from the right of the window. 
-int g_offSet2 = 170;//This is offset from the bottom of the window. 
+const int Width = 800;//This the width of the viewport. 
+const int Height = 600;//This the Height of the viewport. 
+int g_offSet = 170;//This is offset from the right of the viewport. 
+int g_offSet2 = 170;//This is offset from the bottom of the viewport. 
 typedef int Radius;//This adds additional name for the int data type
 
 struct Point//This creates a struct for points.
 {
-    double x;
-    double y;
+    double x;//This is the x coordinate .
+    double y;//This is the y coordinate .
     Point() {}
     Point(double a, double b)
     {
@@ -324,7 +324,7 @@ int main()
  
     srand(time(nullptr));//seeds the random number generator.
     char c,Cs;// c Holds user input, Cs holds the index of shape drawn in the veiw port.
-    initwindow(Width,Height,"task5");//Creates the viewport sets its  Width and Height and the name at the top of it as task5.
+    initwindow(Width,Height,"task5");//Creates the viewport sets its Width and Height and the name at the top of it as task5.
       clearviewport( );//Calls the clearviewport function of graphics.h and Clears viewport .
     rect = rand() %300+25;//generates a random number between 25 & 300.
     rect2 = rand() %300+25;//generates a random number between 25 & 300.
