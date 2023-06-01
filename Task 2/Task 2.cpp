@@ -2,35 +2,36 @@
 //
 
 #include <iostream>
-const int listsize = 10;
+const int listsize = 10;//This is the length of the list. 
 
-int sum(int *pointer, int listsize)
+int sum(int *pointer, int listsize)//This sums up all non-negitive numbers in the list.
 {
-	int runsum = 0;
+	int runsum = 0;//This stores a running total of the  non-negitive numbers in the list.
 	for (int i = 0; i < listsize; i++)
 	{
-		if (*pointer >= 0)
+		if (*pointer >= 0)//This checks if the value at the pointer is non-negitive numbers.
 		{
-			runsum = runsum + *pointer;
+			runsum = runsum + *pointer;//This adds non-negitive numbers to the running total.
 		}
-		pointer++;
+		pointer++;//This moves the pointer to the next entry on the list. 
 	}
 	return runsum;
 }
 int main()
 {
-	int list[listsize];
-	int *pointer;
-	pointer =	list;
+	int list[listsize];//This creates the list.
+	int *pointer;//This creates the pointer
+	pointer = list;//This sets the poninter address of the list 
 	
 	std::cout <<"set values to list number "<<std::endl;
-	for (int i = 0; i < listsize; i++)
+	for (int i = 0; i < listsize; i++)//This make users add the values to the list.
 	{
 		std::cout <<"\n" << (i + 1) << " :";
 		std::cin >> list[i];
 
 	}
-	std::cout << "\n Sum of non-negative values of list ="  << sum(pointer, listsize);
+	//This displays the sum of all non-negitive numbers in the list by calling the sum function.
+	std::cout << "\n Sum of non-negative values of list ="  << sum(pointer, listsize)<<std::endl;
 
 
 }
