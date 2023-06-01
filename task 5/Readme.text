@@ -1,2 +1,28 @@
-TO run task 5 you need to open it sepritly and buill it there on its own 
-and you need cMake and gcc.
+To run task 5 you need to open it on its own and build it there on its own with cmake 
+to use cmake you need 
+1. the C/C++ for Visual Studio Code extension from microsoft 
+  https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
+2. the CMake Tools extension for VS Code 
+  https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools
+3. to install cmake from https://cmake.org/download/ using the installer 
+4.install msys2 from https://www.msys2.org/ 
+    Following the Installation instructions on the website
+    then install the Mingw-w64 toolchain with this command in a MSYS2 terminal
+    (pacman -S --needed base-devel mingw-w64-x86_64-toolchain).
+5.Add the path to your Mingw-w64 bin folder to the Windows PATH environment variable by using the following steps:
+    •In the Windows search bar, type 'settings' to open your Windows Settings.
+    •Search for Edit environment variables for your account.
+    •Choose the Path variable in your User variables and then select Edit.
+    •Select New and add the Mingw-w64 destination folder path to the system path. 
+    The exact path depends on which version of Mingw-w64 you have installed and where you installed it.
+    •Select OK to save the updated PATH. You will need to reopen any console windows for the new PATH location to be available
+6.Check if GCC is installed 
+    To see if GCC is already installed on your system, open a Terminal window and enter the following command:
+    (gcc -v)
+7.then go to settings in vscode and search @ext:ms-vscode.cmake-tools,
+   and then scroll down to cmake:cmake path then add the path to your cmake downloads cmake extension
+   ie: D:/Users/270331389/cmake-3.26.4-windows-x86_64/bin/cmake.exe
+8. Open the Command Palette (Ctrl+Shift+P) and run CMake: Scan for kits,
+     then run CMake: Select a Kit. select a cMake kit ie: [Gcc 12.2.0 x86_64-mingw32(mingw64)] 
+    using a g++ compiler. then run  CMake: Select Variant, Select Debug
+9. then on the status bar cilck on build then you can run it via the run button on the status bar.
