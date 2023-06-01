@@ -4,15 +4,15 @@
 #include <iostream>
 enum Position
 {
-	// these are the Positions that can be set for each of the two Soccer players
+	// these are the Positions that can be set for each of the two Soccer players.
 	goalkeeper, midfielder, striker, winger, defender
 }PPos;
 struct PlayerRecord
 {
-	// these are the info that can be set for each of the two Soccer players
-	int	PlayerNumber;// the Soccer players number 
-	float Playerspeed; // the Soccer players top speed (in MPH)
-	Position PlayerPosition; // the Position of the Soccer Player  
+	// this is the info that can be set for each of the two Soccer players.
+	int	PlayerNumber;// the Soccer player's number.
+	float Playerspeed; // the Soccer player's top speed (in MPH).
+	Position PlayerPosition; // the Position of the Soccer Player. 
 };
 PlayerRecord Players[2];
 int main()
@@ -21,13 +21,14 @@ int main()
 	int imput;
 	while (exit == false)
 	{
+		//This is the main menu of the program.
 		std::cout << "\nEnter \n[1]Player Number\n[2]player's top speed\n[3]Player Position\n[4]display players\n[5]Exit";
 		std::cin >> imput;
 		switch (imput)
 		{
 			case 1:
 			{
-				
+				//this lets the user set the number of both players one after the other.
 				for (int i = 0; i < 2; i++)
 				{
 					std::cout << "Enter Player Number\n" << "For player : " << (i+1) << "\n";
@@ -37,6 +38,7 @@ int main()
 			break;
 			case 2:
 			{
+				//this lets the user  set the top speed of both players one after the other.
 				for (int i = 0; i < 2; i++)
 				{
 					std::cout << "player's top speed\n" << "For player : " << (i + 1) << "\n";
@@ -46,87 +48,93 @@ int main()
 			break;
 			case 3:
 			{
+				//This lets the user  set the Position of both players one after the other.
 				char PlayPos;
 				for (int i = 0; i < 2; i++)
 				{
 					std::cout << "Enter Player Position\n"
-						<<"(G)oalkeeper, (M)idfielder, (S)triker, (W)inger, (D)efender\n"
-						<<"For player : " << (i + 1) << "\n";
+					<<"(G)oalkeeper, (M)idfielder, (S)triker, (W)inger, (D)efender\n"
+					<<"For player : " << (i + 1) << "\n";
 					std::cin >> PlayPos;
-					PlayPos = toupper(PlayPos);
+					PlayPos = toupper(PlayPos);//this is what makes it case insensitive
 					switch (PlayPos)
 					{
+						//This set the Position of player [i] by typing G,M,S,W,D upper or lower case
 						case 'G':
-						{
-							Players[i].PlayerPosition = goalkeeper;
-						}break;
+						{Players[i].PlayerPosition = goalkeeper;}
+						break;
 						case 'M':
 						{
 							Players[i].PlayerPosition = midfielder;
-						}break;
+						}
+						break;
 						case 'S':
 						{
 							Players[i].PlayerPosition = striker;
-						}break;
+						}
+						break;
 						case 'W':
 						{
 							Players[i].PlayerPosition = winger;
-						}break;
+						}
+						break;
 						case 'D':
 						{
 							Players[i].PlayerPosition = defender;
-						}break;
-					
-						default:
-							break;
+						}
+						break;
 					}
 				}
 			}
 			break;	
 			case 4:
 			{
+				//This displays both of the players stats.
 				for (int i = 0; i < 2; i++)
 				{
 					std::cout << "Player : " << (i + 1) << std::endl
-						<< "Player Number :" << Players[i].PlayerNumber << std::endl
-						<< "Player top Speed MPH: " << Players[i].Playerspeed << std::endl
-						<< "Player Player Position: ";
+					<< "Player Number :" << Players[i].PlayerNumber << std::endl
+					<< "Player top Speed MPH: " << Players[i].Playerspeed << std::endl
+					<< "Player Player Position: ";
 					switch (Players[i].PlayerPosition)
 					{
 						case goalkeeper:
 						{
 							std::cout << "goalkeeper" << std::endl;
-						}break;
+						}
+						break;
 						case midfielder:
 						{
 							std::cout << "midfielder" << std::endl;
-						}break;
+						}
+						break;
 						case striker:
 						{
 							std::cout << "striker" << std::endl;
-						}break;
+						}
+						break;
 						case winger:
 						{
 							std::cout << "winger" << std::endl;
-						}break;
+						}
+						break;
 						case defender:
 						{
 							std::cout << "defender" << std::endl;
-						}break;
-
-						
-
+						}
+						break;
 					}
 
 				}
 			}
 			break;
 			case 5:
-			{
+			{//This lets users exit the program.
 				exit =true;
 			}
+			break;
 			default:
-				break;
+			break;
 		}
 
 	}
