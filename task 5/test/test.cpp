@@ -271,7 +271,7 @@ int MainMenu()//This is the main menu
                 exit(0);//Exits the program.
             }
             break;
-            default:
+            default://This tells the the user if they try to enter an invalid input. 
             {
                 outtext( "Invaild Input");//Calls the outtext function of graphics.h and draws text at the top of the viewport .
                 delay(1000);//Calls the Delay function of c++and delays the next line by a set number of milliseconds.
@@ -369,7 +369,7 @@ int main()
             CalculateScore();;//Calls the CalculateScore function.
         } 
         else if(c=='x'){exit(0);}//Ends the program.
-        else
+        else//This tells the the user if they try to enter an invalid input. 
         {   clearviewport( );//Calls the clearviewport function of graphics.h and Clears viewport .
             c=0,Cs=0;//resets the value of c & Cs
             outtextxy(20, 130, "Identify the Shapes");//Calls the outtextxy function of graphics.h and draws text at x,y.
