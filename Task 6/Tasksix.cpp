@@ -82,8 +82,8 @@ int main()
          << "Add daiy expenses[3]\n"
          << "Exit Program[4]\n";
 
-        cin >> input;
-        switch (input)
+        cin >> input;// Holds the  users input.
+        switch (input)// This lets a user set a value of an expense of a type corresponding to 'input'
         {
             case 1://This let a user look at the total expenses of a selected day.
             {
