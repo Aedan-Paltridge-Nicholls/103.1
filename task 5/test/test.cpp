@@ -244,7 +244,7 @@ void Other()//Draws a random other shape.
 
 int MainMenu()//This is the main menu
 {
-    void FinalScore();//initializes the final score  function so it can call it  
+    void FinalScore();//initializes the final score  function so it can call it.  
     int main();//initializes the main function so it can call it.  
     char MenuImp;// Holds the users input.
     do
@@ -284,7 +284,7 @@ int MainMenu()//This is the main menu
     } while (true);//loops the function.
     
 }
-void CalculateScore()//Calculates the Score and adds 10 to score;
+void CalculateScore()//Calculates the Score and adds 10 to score.
 {
  score += 10;// Add ten to the score value.
 
